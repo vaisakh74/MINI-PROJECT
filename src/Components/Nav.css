@@ -1,0 +1,39 @@
+.nav {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 16px;
+}
+
+.nav .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-weight: 700;
+    color: #2b6cb0;
+    text-decoration: none;
+}
+
+.links a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: #333;
+}
+
+.user-badge {
+    margin-right: 8px;
+    color: #555
+}
+
+.btn-logout {
+    background: #ef4444;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
